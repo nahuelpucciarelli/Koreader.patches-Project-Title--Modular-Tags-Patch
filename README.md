@@ -12,9 +12,9 @@ local DISPLAY_MODE = "pages"
 
 **Available modes:**
 - `"pages"` - Show page count (e.g., "350 pages")
-- `"tags"` - Show original calibre tags (default behavior)
-- `"pages_and_tags"` - Show both (e.g., "350 pages • Fiction • Sci-Fi")
-- `"custom"` - Use the custom function (see below)
+- `"tags"` - Show original calibre tags
+- `"pages_and_tags"` - Show both (e.g., "350 pages | Fiction • Sci-Fi")
+- `"custom"` - Use the custom function
 
 #### Font Size
 You can adjust how the text looks:
