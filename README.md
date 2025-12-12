@@ -1,5 +1,6 @@
 # Modular Tags Patch - Usage Guide
 <img src="screenshots/FileManager_2025-12-12_100353.png" width="45%" alt="Patch Preview"> <img src="screenshots/FileManager_2025-12-12_100550.png" width="45%" alt="Patch Preview 2">
+<img src="screenshots/FileManager_2025-12-12_100624.png" alt="Patch Preview" width="300">
 
 ## What This Does
 
