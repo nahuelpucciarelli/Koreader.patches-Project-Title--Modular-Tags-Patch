@@ -1,7 +1,5 @@
 # Modular Tags Patch - Usage Guide
 
-<img src="screenshots/preview.png" alt="Patch Preview" width="300">
-
 ## What This Does
 
 This patch **hijacks** the "Show calibre tags/keywords" field to display **anything you want** instead. Just change one setting and restart!
