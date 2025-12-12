@@ -1,5 +1,5 @@
-## [2-modular-tags.lua](2-modular-tags.lua)
-This patch **hijacks** the "Show calibre tags/keywords" field to display **anything you want** instead.
+## [🞂 2-modular-tags.lua](2-modular-tags.lua)
+This patch hijacks the "Show calibre tags/keywords" field to display anything you want instead.
 
 <img src="screenshots/FileManager_2025-12-12_100353.png" width="45%" alt="Patch Preview"> <img src="screenshots/FileManager_2025-12-12_100624.png" width="45%" alt="Patch Preview 3">
 
@@ -42,5 +42,5 @@ For complete control, use `DISPLAY_MODE = "custom"` and edit the `customFormat` 
 - `bookinfo.keywords` - Original tags/keywords
 - `bookinfo.description` - Book description
 
-## [2-series-first.lua](2-series-first.lua)
+## [🞂 2-series-first.lua](2-series-first.lua)
 This patch reverses the displayed order of author and series, and it keeps both lines separated even with the "Show calibre tags/keywords" option activated. 
