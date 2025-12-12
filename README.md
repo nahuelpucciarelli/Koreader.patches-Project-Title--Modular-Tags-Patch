@@ -9,7 +9,7 @@ This patch **hijacks** the "Show calibre tags/keywords" field to display **anyth
 
 ### 1. Install the Patch
 
-1. Save `2-modular-tags.lua` to: `koreader/patches/modular-tags.lua`
+1. Save `2-modular-tags.lua` to: `koreader/patches/`
 2. Restart KOReader
 
 ### 2. Enable the Field
