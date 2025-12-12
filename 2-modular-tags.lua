@@ -1,15 +1,6 @@
 --[[
 Modular User Patch for Project: Title - Replace Tags Field
 
-This patch hijacks the "tags" display field to show different metadata.
-Simply change the DISPLAY_MODE setting below to choose what to display.
-
-Installation:
-1. Save this file as "modular-tags.lua" in: koreader/patches/
-2. Restart KOReader
-3. Enable "Show calibre tags/keywords" in Project: Title settings
-4. The field will show your chosen metadata
-
 Available modes:
 - "pages"          : Show page count (e.g., "350 pages")
 - "tags"           : Show original calibre tags/keywords  
@@ -171,7 +162,7 @@ local function patchCoverBrowser(CoverBrowser)
     if CUSTOM_FONT_SIZE_OFFSET then
         ptutil.list_defaults.tags_font_offset = CUSTOM_FONT_SIZE_OFFSET
     end
-    
+
     if CUSTOM_FONT_MIN then
         ptutil.list_defaults.tags_font_min = CUSTOM_FONT_MIN
     end
@@ -180,3 +171,4 @@ local function patchCoverBrowser(CoverBrowser)
 end
 
 userpatch.registerPatchPluginFunc("coverbrowser", patchCoverBrowser)
+
