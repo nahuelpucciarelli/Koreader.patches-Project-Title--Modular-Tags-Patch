@@ -29,6 +29,9 @@ local function patchCoverBrowser(CoverBrowser)
     local util = require("util")
     local BookInfoManager = require("bookinfomanager")
     local ptutil = require("ptutil")
+    local _ = require("l10n.gettext")
+    local N_ = _.ngettext
+    local T = require("ffi/util").template
     
     logger.info("Modular Tags Patch: Loading with DISPLAY_MODE =", DISPLAY_MODE)
     
@@ -46,11 +49,7 @@ local function patchCoverBrowser(CoverBrowser)
         local pages_num = tonumber(pages)
         if not pages_num then return nil end
         
-        if pages_num == 1 then
-            return "1 " .. _("page")
-        else
-            return tostring(pages_num) .. " " .. _("pages")
-        end
+        return T(N_("1 page", "%1 pages", pages), pages)
     end
     
     -- ========================================================================
@@ -171,4 +170,5 @@ local function patchCoverBrowser(CoverBrowser)
 end
 
 userpatch.registerPatchPluginFunc("coverbrowser", patchCoverBrowser)
+
 
